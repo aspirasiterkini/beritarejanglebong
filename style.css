@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+.hero {
+  background: url('assets/images/hero.jpg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.service-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-box {
+  background: #f8f8f8;
+  padding: 30px;
+  border-radius: 12px;
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.service-box:hover {
+  transform: translateY(-10px);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cta {
+  background: #222;
+  color: #fff;
+  padding: 60px 20px;
+}
+
+.btn-light {
+  background: #fff;
+  color: #000;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: #aaa;
+}
